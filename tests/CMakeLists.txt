@@ -15,4 +15,4 @@ target_link_libraries(image_test
 image  ${IO_TOOLS}
 gtest gtest_main)
 
-add_test(test_image ${PROJECT_SOURCE_DIR}/bin/image_test)
+add_test(test_image ${PROJECT_SOURCE_DIR}/bin/image_test "${PROJECT_SOURCE_DIR}/data/")
